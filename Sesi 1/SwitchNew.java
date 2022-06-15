@@ -1,5 +1,3 @@
-import java.io.File;
-
 class SwitchNew{
     public static void main (String[] args){
         String day = "A";
