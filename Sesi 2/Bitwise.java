@@ -24,5 +24,8 @@ public class Bitwise {
 
         hasil = x >>> 2;
         System.out.println("x >>> 2 = "+hasil);
+
+        hasil = ~x;
+        System.out.println("~x = "+hasil);
     }
 }

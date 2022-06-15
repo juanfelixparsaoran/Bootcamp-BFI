@@ -26,6 +26,8 @@ public class HitungGrade {
         }
 
         System.out.println("Grade : "+grade);
+
+        scan.close();
         
     }
     

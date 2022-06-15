@@ -46,6 +46,7 @@ public class OperatorAritmatika{
         hasil = angka1 % angka2;
         System.out.println("Hasil = " + hasil);
 
+        keyboard.close();
 
     }
 }

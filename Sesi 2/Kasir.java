@@ -30,5 +30,7 @@ public class Kasir {
         bayar = belanjaan - diskon;
 
         System.out.println("Total Bayar: Rp. " + bayar);
+
+        scan.close();
     }
 }

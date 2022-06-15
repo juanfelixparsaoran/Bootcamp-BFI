@@ -21,5 +21,7 @@ public class SwitchCase {
             default:
                 System.out.println("Warna lampu salah");
         }
+
+        scan.close();
     }
 }

@@ -16,5 +16,7 @@ public class CekGraduation {
         }else{
             System.out.println("Maaf " + nama + ", anda gagal!");
         }
+
+        scan.close();
     }
 }

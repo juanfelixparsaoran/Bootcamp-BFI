@@ -13,5 +13,7 @@ public class CekHadiah {
         }
 
         System.out.println("Terima Kasih...");
+
+        scan.close();
     }
 }
