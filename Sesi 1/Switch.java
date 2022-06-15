@@ -2,7 +2,6 @@ import java.io.File;
 
 class Switch{
     public static void main (String[] args){
-        System.out.println("Hello")
         String day = "T";
         String result = "";
         switch(day){
