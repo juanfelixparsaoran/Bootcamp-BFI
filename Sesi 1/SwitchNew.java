@@ -13,7 +13,6 @@ class SwitchNew{
             }            
         };
         
-
         System.out.println(result);
 
     }
