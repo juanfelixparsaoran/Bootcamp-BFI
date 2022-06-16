@@ -102,6 +102,23 @@ Tes ke 8 : c <= a = false
 Tes ke 9 : a == b = false
 Tes ke 10 : a != (b + 2) = false
 
+5. PenjumlahanXY
+Program ini digunakan untuk mencari nilai X1 dan X2 berdasarkan nilai y1 dan y2 dengan rumus:
+                                X1 = (y1 + y2)^2
+                                X2 = (y1 mod 4) * y2
+dengan ketentuan:
+1. X1 >= X2 menghasilkan true
+2. X2 >= X1 menghasilkan false
+3. X1 mod 4 == ++X2 mod 5 menghasilkan true.
+
+Salah satu nilai y1 dan y2 yang memenuhi adalah y1 = 4 dan y2 = 5.
+Cara menjalankan program adalah dengan menggunakan command "javac PenjumlahanXY.java && javac PenjumlahanXY.
+
+6. LanjutanPenjumlahanXY
+Setelah mendapatkan nilai X1 dan X2, Lalu dibuat kode program untuk melakukan nilai evaluasi terhadap X1 dan X2
+dengan ketentuan seperti yang disebutkan diatas.
+
+
 
 
 
