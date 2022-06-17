@@ -1,5 +1,6 @@
 public class TempatDuduk {
     public static void main(String[] args) {
+        //Init bahasa
         String [][] bahasa = {{"php","ruby","java"},{"golang","javascript","swift"}};
 
         System.out.println("output :");

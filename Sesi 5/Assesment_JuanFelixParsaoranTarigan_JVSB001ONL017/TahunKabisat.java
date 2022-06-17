@@ -9,18 +9,20 @@ public class TahunKabisat {
         System.out.print("Masukkan tahun : ");
         tahun = scan.nextInt();
         scan.close();
-        if (tahun % 4 == 0){
-            if (tahun % 100 == 0){
-                if (tahun % 400 == 0){
+        if (tahun % 4 == 0) {
+            if (tahun % 100 == 0) {
+                if (tahun % 400 == 0) {
                     kabisat = true;
                 }
-            }else{
+            } else {
                 kabisat = true;
             }
         }
 
-        if (kabisat) System.out.println("Merupakan tahun kabisat!");
-        else System.out.println("Bukan tahun kabisat!");
+        if (kabisat)
+            System.out.println("Merupakan tahun kabisat!");
+        else
+            System.out.println("Bukan tahun kabisat!");
     }
 
 }

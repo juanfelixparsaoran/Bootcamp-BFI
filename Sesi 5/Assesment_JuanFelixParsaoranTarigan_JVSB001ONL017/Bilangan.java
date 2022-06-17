@@ -25,6 +25,7 @@ public class Bilangan {
 
     }
 
+    //Max Function
     private static double max(double x, double y, double z) {
         if ((x > y) && (x > z)) {
             return x;
@@ -35,6 +36,7 @@ public class Bilangan {
         }
     }
 
+    //Min function
     private static double min(double x, double y, double z) {
         if ((x < y) && (x < z)) {
             return x;
