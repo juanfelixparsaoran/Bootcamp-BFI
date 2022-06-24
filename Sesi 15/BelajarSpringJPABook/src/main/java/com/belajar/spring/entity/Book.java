@@ -7,20 +7,23 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.Data;
+
 @Entity
+@Data
 @Table(name="book")
 public class Book {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+		@Id
+		@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(nullable = false)
+	@Column(nullable = false, name="writer")
 	private String writer;
 	
-	@Column(nullable = false)
+	@Column(nullable = false, name="title")
 	private String title;
 	
-	@Column(nullable = false)
+	@Column(nullable = false, name = "isbn")
 	private String isbn;
 
 	public long getId() {

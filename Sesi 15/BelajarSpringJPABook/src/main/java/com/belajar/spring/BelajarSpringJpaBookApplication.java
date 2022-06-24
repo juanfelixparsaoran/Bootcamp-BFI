@@ -30,8 +30,8 @@ public class BelajarSpringJpaBookApplication implements CommandLineRunner {
 		
 		Book book2 = new Book();
 		book2.setTitle("Belajar Spring Boot 2");
-		book1.setIsbn("IS-9010");
-		book1.setWriter("Teten Supratna");
+		book2.setIsbn("IS-9010");
+		book2.setWriter("Teten Supratna");
 		
 		bookRepository.save(book1);
 		bookRepository.save(book2);
