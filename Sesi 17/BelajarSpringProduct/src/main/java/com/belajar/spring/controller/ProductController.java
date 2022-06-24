@@ -25,7 +25,7 @@ public class ProductController{
     ProductService productService;
 
     @CrossOrigin
-    @PostMapping(value = "/", consumes = {"application/json"})
+    @PostMapping(value = "/")
     public ResponseEntity<?> addProduct(@RequestBody Product product){
         productService.saveProduct(product);
         return new ResponseEntity<>("Sukses Add",HttpStatus.OK);

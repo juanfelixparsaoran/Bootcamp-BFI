@@ -13,8 +13,8 @@ import lombok.Data;
 @Data
 @Table(name="book")
 public class Book {
-		@Id
-		@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
 	@Column(nullable = false, name="writer")
