@@ -24,8 +24,8 @@ public class App
     private static final DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
     public static void main( String[] args ) throws Exception
     {
-        // parseDomXmlFromFile();
-        readXmlfromDomain("bfi.co.id");
+        parseDomXmlFromFile();
+        // readXmlfromDomain("bfi.co.id");
     }
 
     public static void parseDomXmlFromFile() throws Exception{
